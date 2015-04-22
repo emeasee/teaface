@@ -1,0 +1,22 @@
+<div class="container-fluid">
+
+  <div ng-include="'app/components/navbar/navbar.html'"></div>
+
+  <div class="row">
+      <div ng-repeat="awesomeThing in awesomeThings " class="no-pad {{ 'col-xs-' + awesomeThing.size }}">
+        <div class="thumbnail">
+          <img class="pull-right" ng-src="{{awesomeThing.face}}" alt="{{awesomeThing.title}}">
+          <div class="caption" rel="{{ $index }}">
+            <!-- <h3>{{awesomeThing.title}}</h3>
+            <p>{{awesomeThing.description}}</p>
+            <p><a ng-href="{{awesomeThing.url}}">{{awesomeThing.url}}</a></p> -->
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <div class="footer">
+
+  </div>
+
+</div>

@@ -1,0 +1,37 @@
+.browsehappy {
+  margin: .2em 0;
+  background: #ccc;
+  color: #000;
+  padding: .2em 0;
+}
+
+.container-fluid{
+  max-width: 1920px;
+}
+
+.row > * {
+  padding: 0;
+  overflow: hidden;
+}
+
+.no-pad{
+  padding-left:0px;
+  padding-right:0px;
+}
+
+.thumbnail {
+  margin: 0;
+  border: none;
+  background: #e5e5e5;
+  border-radius: 0;
+  padding: 0;
+
+  img{
+    //width:400px;
+  }
+}
+
+/* Do not remove this comments bellow. It's the markers used by gulp-inject to inject
+   all your sass files automatically */
+// injector
+// endinjector
